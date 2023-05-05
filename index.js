@@ -1,5 +1,5 @@
 // ContentType 'Product'
-// Naming convention const
+// Naming convention const ?
 "use strict"
 const config = require('./config/config.json')
 
@@ -25,14 +25,19 @@ async function Connect() {
 }
 
 async function createEntry(env, { title, path, label, introduction }) {
-    env.createEntryWithId(CONTENT_TYPE, CONTENTID, {
+    const entry = await env.createEntryWithId(CONTENT_TYPE, CONTENTID, {
         fields: {
-            title: title,
-            path: path,
-            label: label,
-            introduction: introduction,
+            title: { 'en-US': title },
+            path: { 'en-US': path },
+            label: { 'en-US': label },
+            introduction: { 'en-US': introduction },
         }
     })
+
+    // err 409
+    await entry.update();
+    await env.getEntry(CONTENTID)
+    entry.publish();
 }
 
 async function createField(env, newField) {
@@ -40,7 +45,7 @@ async function createField(env, newField) {
     const fields = product.fields
 
     const titleField = product.displayField
-    Object.assign(newField, {defaultValue: {'en-US': titleField}});
+    Object.assign(newField, { defaultValue: { 'en-US': titleField } });
 
     fields.push(newField);
     await product.update();
@@ -49,24 +54,26 @@ async function createField(env, newField) {
 }
 
 async function main() {
-    const env = await Connect();
+    const env = await Connect()
 
-    
-    // not working, 404 not found
-    // const newContent = {
-    //     title: CONTENT_TITLE,
-    //     path: CONTENT_PATH,
-    //     label: CONTENT_LABEL,
-    //     introduction: CONTENT_INTRODUCTION
-    // }
+    const newContent = {
+        title: CONTENT_TITLE,
+        path: CONTENT_PATH,
+        label: CONTENT_LABEL,
+        introduction: CONTENT_INTRODUCTION
+    }
     // createEntry(env, newContent);
 
-    const newField = { id: "slug", name: "Slug", type: "Symbol" };
-    createField(env, newField);
+    const newField = { id: "slug", name: "Slug", type: "Symbol" }
+    // createField(env, newField);
 
-    // create a log file (log.txt) in the following format 
-    // 4.DATE: Wed May 03 2023 10:47:22 GMT+0400 (Mauritius Standard Time)
-    // Published "filed Name"- id: "ID"
+    // below not tested
+    const fieldUsShop = { id: "usShop", name: "Us shop", type: "Boolean", defaultValue: true }
+    // createField(env, fieldUsShop);
+
+    // 6.append your log file with successful or unsuccessful response (in the same format above)
+    // 7.Delete the field "Shop" 
+    // append your log file with successful or unsuccessful response (in the same format above)
 }
 
 main();
