@@ -1,2 +1,10 @@
-DATE: Fri May 05 2023 15:09:00 GMT+0400 (Mauritius Standard Time)
-Published "filed Name"- id: "slug"
+DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time) 
+Published entry: sensitve pampers - id: sensitvePampers
+DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time) 
+Published field: Slug - id: slug
+DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time) 
+Published field: Us shop - id: usShop
+DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time) 
+Updated field: Us shop - id: usShop
+DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time) 
+Deleted field: Us shop - id: usShop
