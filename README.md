@@ -4,7 +4,7 @@ A sample 'ticket' given by Melanie Bouic for me to practice with CMA:
 
 -----
 
-##The ticket
+## The ticket
 
 ### Contentful Platform
 

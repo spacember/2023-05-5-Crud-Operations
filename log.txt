@@ -18,3 +18,130 @@ DATE: Mon May 08 2023 22:16:27 GMT+0400 (Mauritius Standard Time)
 Updated field: Us shop - id: usShop
 DATE: Mon May 08 2023 22:16:27 GMT+0400 (Mauritius Standard Time) 
 Deleted field: Us shop - id: usShop
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: sensitve pampers - id: sensitvePampers
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: sensitve pampers - id: sensitvePampers
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: sensitve pampers - id: sensitvePampers
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: sensitve pampers - id: sensitvePampers
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+Error occured on createEntry. Entry title: sensitve pampers - id: sensitvePampers
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField 
+Field name: Us shop not found
+DATE: Tue May 09 2023 16:14:44 GMT+0400 (Mauritius Standard Time) 
+Published entry: undefined - id: undefined
+DATE: Tue May 09 2023 16:14:44 GMT+0400 (Mauritius Standard Time) 
+Published field: Slug - id: slug
+DATE: Tue May 09 2023 16:14:44 GMT+0400 (Mauritius Standard Time) 
+Published field: Us shop - id: usShop
+Error occured on deleteField. Field name: Us shop - id: usShop
+Error occured on createEntry. Entry title: undefined - id: undefined
+Error occured on createField. Field name: Slug - id: slug
+Error occured on createField. Field name: Us shop - id: usShop
+DATE: Tue May 09 2023 16:17:36 GMT+0400 (Mauritius Standard Time) 
+Updated field: Us shop - id: usShop
+DATE: Tue May 09 2023 16:17:36 GMT+0400 (Mauritius Standard Time) 
+Deleted field: Us shop - id: usShop
+DATE: Tue May 09 2023 16:18:51 GMT+0400 (Mauritius Standard Time) 
+Published entry: sensitve pampers - id: sensitvePampers
+DATE: Tue May 09 2023 16:18:51 GMT+0400 (Mauritius Standard Time) 
+Published field: Slug - id: slug
+DATE: Tue May 09 2023 16:18:51 GMT+0400 (Mauritius Standard Time) 
+Published field: Us shop - id: usShop
+DATE: Tue May 09 2023 16:18:51 GMT+0400 (Mauritius Standard Time) 
+Updated field: Us shop - id: usShop
+DATE: Tue May 09 2023 16:18:51 GMT+0400 (Mauritius Standard Time) 
+Deleted field: Us shop - id: usShop
+Error occured on createField. Field name: Image - id: image
+Error occured on createField. Field name: Image - id: image
+Error occured on createField. Field name: Image - id: image
+Error occured on createField. Field name: Image - id: image
+DATE: Tue May 09 2023 20:27:34 GMT+0400 (Mauritius Standard Time) 
+Created asset id: 29SBFu7FDH5gMCVn6TRVRH
+DATE: Tue May 09 2023 20:32:30 GMT+0400 (Mauritius Standard Time) 
+Created asset id: ouvdDNp4b1A1fCD7uBp5m
+Error occured on createAsset. Asset id: imageOfARoad
+Error occured on createAsset. Asset id: imageOfARoad
+Error occured on createAsset. Asset id: imageOfARoad
+Error occured on createAsset. Asset id: someid}
+Error occured on createAsset. Asset id: someid}
+Error occured on createAsset. Asset id: someid}
+Error occured on createAsset. Asset id: someid}
+Error occured on createAsset. Asset id: someid}
+DATE: Tue May 09 2023 20:57:16 GMT+0400 (Mauritius Standard Time) 
+Created asset id: 6tklfWNrDr6SqkI1mElgfP
