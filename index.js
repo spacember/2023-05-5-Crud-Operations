@@ -11,11 +11,14 @@ const CONTENT_TYPE = config.contentType.id
 
 const contentful = require("contentful-management");
 
-// should add log here too
-async function Connect() {
-    const client = contentful.createClient({ accessToken: ACCESS_TOKEN })
-    const space = await client.getSpace(SPACEID)
-    return await space.getEnvironment(ENVIRONMENTID)
+async function connect() {
+    try {
+        const client = contentful.createClient({ accessToken: ACCESS_TOKEN })
+        const space = await client.getSpace(SPACEID)
+        return await space.getEnvironment(ENVIRONMENTID)
+    } catch (err) {
+        log(`Error occured on connect`)
+    }
 }
 
 async function createEntry(env, { id, ...entry }) {
@@ -25,7 +28,6 @@ async function createEntry(env, { id, ...entry }) {
         await createdEntry.publish();
         log(`DATE: ${date} \nPublished entry: ${entry.title["en-US"]} - id: ${id["en-US"]}`)
     } catch (err) {
-        console.log(err);
         log(`Error occured on createEntry. Entry title: ${entry.title["en-US"]} - id: ${id["en-US"]}`)
     }
 }
@@ -45,17 +47,17 @@ async function createField(env, field) {
         log(`DATE: ${date} \nPublished field: ${field.name} - id: ${field.id}`)
     }
     catch (err) {
-        console.log(err);
         log(`Error occured on createField. Field name: ${field.name} - id: ${field.id}`)
     }
 }
 
-async function updateField(env, index, { key: value }) {
+// [key, value] should be { key : value}
+async function updateField(env, index, [key, value]) {
     try {
         let product = await env.getContentType(CONTENT_TYPE)
         const field = product.fields[index]
 
-        field.omitted = true
+        field[key] = value
 
         await product.update()
         product = await env.getContentType(CONTENT_TYPE)
@@ -79,13 +81,13 @@ async function deleteField(env, field) {
         }
 
         // omit
-        if (!fields[index].omitted){
-            await updateField(env, index, { omitted: true })
+        if (!fields[index].omitted) {
+            await updateField(env, index, ["omitted", true])
             product = await env.getContentType(CONTENT_TYPE)
             fields = product.fields
         }
 
-        // delete field
+        // delete
         fields.splice(index, 1)
         await product.update()
         product = await env.getContentType(CONTENT_TYPE)
@@ -99,7 +101,7 @@ async function deleteField(env, field) {
 }
 
 async function main() {
-    const env = await Connect()
+    const env = await connect()
 
     const entry = {
         id: { "en-US": "sensitvePampers" },

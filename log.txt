@@ -8,3 +8,13 @@ DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time)
 Updated field: Us shop - id: usShop
 DATE: Mon May 08 2023 21:06:40 GMT+0400 (Mauritius Standard Time) 
 Deleted field: Us shop - id: usShop
+DATE: Mon May 08 2023 22:14:31 GMT+0400 (Mauritius Standard Time) 
+Published field: Us shop - id: usShop
+Error occured on deleteField. Field name: Us shop - id: usShop
+Error occured on createField. Field name: Us shop - id: usShop
+Error occured on deleteField. Field name: Us shop - id: usShop
+Error occured on deleteField. Field name: Us shop - id: usShop
+DATE: Mon May 08 2023 22:16:27 GMT+0400 (Mauritius Standard Time) 
+Updated field: Us shop - id: usShop
+DATE: Mon May 08 2023 22:16:27 GMT+0400 (Mauritius Standard Time) 
+Deleted field: Us shop - id: usShop
